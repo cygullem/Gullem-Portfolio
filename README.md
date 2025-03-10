@@ -45,16 +45,12 @@ mindmap
 
 </div>
 
-## 🚀 Demo
-
-Experience the live portfolio at [https://portfolio-lohit.vercel.app](https://portfolio-lohit.vercel.app)
-
 ## 🛠️ Installation
 
 1️⃣ Clone the repository:
 
 ```bash
-git clone https://github.com/lohitkolluri/Portfolio-Website
+git clone https://github.com/cygullem/Gullem-Portfolio
 ```
 
 2️⃣ Navigate to project directory:
