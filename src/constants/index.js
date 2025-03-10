@@ -164,6 +164,7 @@ export const projects = [
       { name: "ReactJS", color: "blue-text-gradient" },
       { name: "TailwindCSS", color: "green-text-gradient" },
       { name: "ThreeJS", color: "pink-text-gradient" },
+      { name: "EmailJS", color: "pink-text-gradient" },
     ],
 
     image: portfolio,
