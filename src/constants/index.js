@@ -7,14 +7,14 @@ import {
   nodejs,
   git,
   edunet,
-  weatherpedia,
-  termpw,
-  payloadmaster,
+  facebook,
+  ilm,
+  scanner,
   threejs,
-  mhft,
-  sketcher,
+  lending,
+  pos,
+  portfolio,
   mathwork,
-  CompileVortex,
   eduskill,
 } from "../assets";
 
@@ -62,7 +62,7 @@ export const experiences = [
       "Developed hands-on experience in building scalable web applications using C# and ReactJS.",
       "Strengthened problem-solving and software engineering skills through real-world development tasks and collaborative projects.",
       "Gained practical knowledge of modern development workflows, including API integration, debugging, and code optimization."
-    ],    
+    ],
   },
   {
     title: "Software Engineer Intern",
@@ -74,7 +74,7 @@ export const experiences = [
       "Developed hands-on experience in building scalable web applications using C# and ReactJS.",
       "Strengthened problem-solving and software engineering skills through real-world development tasks and collaborative projects.",
       "Gained practical knowledge of modern development workflows, including API integration, debugging, and code optimization."
-    ], 
+    ],
   },
   {
     title: "Software Engineer Intern",
@@ -86,82 +86,87 @@ export const experiences = [
       "Developed hands-on experience in building scalable web applications using C# and ReactJS.",
       "Strengthened problem-solving and software engineering skills through real-world development tasks and collaborative projects.",
       "Gained practical knowledge of modern development workflows, including API integration, debugging, and code optimization."
-    ], 
+    ],
   },
 ];
 
 export const projects = [
   {
-    name: "WeatherPedia",
+    name: "Facebook Clone Project",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
+      "A fully functional Facebook clone developed as a midterm project. Built using jQuery, Ajax, and PHP for the backend, with MySQL as the database. The platform includes core social networking features such as user authentication, posting, commenting, and real-time interactions.",
     tags: [
       { name: "Javascript", color: "blue-text-gradient" },
       { name: "HTML", color: "green-text-gradient" },
-      { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
-      { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
+      { name: "CSS", color: "green-text-gradient" },
+      { name: "PHP", color: "pink-text-gradient" },
+      { name: "Ajax", color: "green-text-gradient" },
     ],
-    image: weatherpedia,
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
+    image: facebook,
+    source_code_link: "https://github.com/cygullem/FACEBOOK-Midterm",
   },
   {
-    name: "Terminal Like Portfolio Website",
+    name: "Item List Manager",
     description:
-      "A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.",
+      "A fully functional Item List Manager built with ReactJS, TailwindCSS, TypeScript, and LocalStorage. This CRUD application allows users to add, edit, and delete items, with data persistence handled via LocalStorage for a seamless user experience.",
     tags: [
-      { name: "HTML", color: "blue-text-gradient" },
-      { name: "css", color: "green-text-gradient" },
-      { name: "Javascript", color: "pink-text-gradient" },
+      { name: "ReactJS", color: "blue-text-gradient" },
+      { name: "TypeScript", color: "blue-text-gradient" },
+      { name: "TailwindCSS", color: "green-text-gradient" },
+      { name: "localstorage", color: "pink-text-gradient" },
+      { name: "CRUD", color: "pink-text-gradient" },
     ],
-    image: termpw,
-    source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
+    image: ilm,
+    source_code_link: "https://github.com/cygullem/ILM",
   },
   {
-    name: "Mental Health Fitness Tracker",
+    name: "QR Code Scanner",
     description:
-      "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
-    tags: [
-      { name: "Machine Learning", color: "blue-text-gradient" },
-      { name: "Jupyter Notebook", color: "green-text-gradient" },
-      { name: "Regression Algorithms", color: "pink-text-gradient" },
-    ],
-    image: mhft,
-    source_code_link:
-      "https://github.com/lohitkolluri/mental_health_fitness_tracker",
-  },
-  {
-    name: "PayloadMaster",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
+      "A fully functional QR Code Scanner built entirely with JavaScript. Designed to work seamlessly on both desktop and mobile devices, it scans QR codes, displays the results, and optionally redirects users to the embedded links for quick access.",
     tags: [
       { name: "shell", color: "blue-text-gradient" },
     ],
-    image: payloadmaster,
-    source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
+    image: scanner,
+    source_code_link: "https://github.com/cygullem/JS_QR_Code",
   },
   {
-    name: "CompileVortex",
+    name: "Lending App",
     description:
-      "Tool to automate payload creation using the Metasploit framework",
+      "A fully functional Lending Application built with C# MVC and Bootstrap, featuring user authentication and a responsive interface. The system allows users to manage loan transactions, track balances, and securely handle account-related operations.",
     tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "CSS", color: "green-text-gradient" },
-      { name: "HTML", color: "pink-text-gradient" },
+      { name: "C#", color: "blue-text-gradient" },
+      { name: "MVC", color: "green-text-gradient" },
+      { name: "Auth", color: "pink-text-gradient" },
+      { name: "Bootstrap 5", color: "pink-text-gradient" },
     ],
-    image: CompileVortex,
-    source_code_link: "https://github.com/lohitkolluri/CompileVortex",
+    image: lending,
+    source_code_link:
+      "https://github.com/cygullem/GullemsUtanganan",
   },
   {
-    name: "Sketcher",
+    name: "POS System",
     description:
-      "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
+      "A fully functional Point of Sale (POS) system built with ReactJS for the frontend and PHP for the backend, using MySQL as the database. It features API-based data fetching for smooth and dynamic operations, enabling efficient transaction processing, inventory management, and sales tracking.",
     tags: [
-      { name: "OpenCV", color: "blue-text-gradient" },
-      { name: "Matplotlib", color: "green-text-gradient" },
-      { name: "Python", color: "pink-text-gradient" },
+      { name: "ReactJS", color: "blue-text-gradient" },
+      { name: "PHP", color: "green-text-gradient" },
+      { name: "MySQL", color: "green-text-gradient" },
+      { name: "API", color: "pink-text-gradient" },
+    ],
+    image: pos,
+    source_code_link: "https://github.com/cygullem/POS_System_ReactVite_PHP",
+  },
+  {
+    name: "Portfolio Website",
+    description:
+      "A fully functional Portfolio Website built with ReactJS, TailwindCSS, and Framer Motion. This responsive single-page application showcases my skills, projects, and experiences, providing visitors with an interactive and engaging platform to explore.",
+    tags: [
+      { name: "ReactJS", color: "blue-text-gradient" },
+      { name: "TailwindCSS", color: "green-text-gradient" },
+      { name: "ThreeJS", color: "pink-text-gradient" },
     ],
 
-    image: sketcher,
-    source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
+    image: portfolio,
+    source_code_link: "https://github.com/cygullem/Gullem-Portfolio",
   },
 ];
