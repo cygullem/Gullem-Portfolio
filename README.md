@@ -4,9 +4,6 @@
 
 <p align="center">
   <a href="#features">Features</a> •
-  <a href="#demo">Demo</a> •
-  <a href="#screenshots">Screenshots</a> •
-  <a href="#installation">Installation</a> •
   <a href="#tech-stack">Tech Stack</a>
 </p>
 
@@ -44,36 +41,6 @@ mindmap
 ```
 
 </div>
-
-## 🛠️ Installation
-
-1️⃣ Clone the repository:
-
-```bash
-git clone https://github.com/cygullem/Gullem-Portfolio
-```
-
-2️⃣ Navigate to project directory:
-
-```bash
-cd Portfolio-Website
-```
-
-3️⃣ Install dependencies:
-
-```bash
-npm install
-```
-
-4️⃣ Run development server:
-
-```bash
-npm run dev
-```
-
-5️⃣ Open in browser:
-
-- Visit [http://localhost:3000](http://localhost:3000)
 
 ## 💻 Tech Stack
 
