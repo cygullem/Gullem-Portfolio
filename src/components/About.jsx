@@ -40,10 +40,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        👩‍💻 Aspiring Software Engineer with a strong foundation in web development and a passion for solving complex problems |
-        🎓 Currently pursuing a Bachelor's Degree in Information Technology at Cebu Roosevelt Memorial Colleges | 
-        Resourceful, innovative, and dedicated to building scalable, 
-        user-centric digital experiences with a commitment to excellence.
+        👩‍💻 Software Engineer with a strong foundation in web development and a passion for solving complex problems | 🎓 Bachelor&#39;s Degree in Information Technology, Cebu Roosevelt Memorial Colleges | Resourceful, innovative, and dedicated to building scalable, user-centric digital experiences with a commitment to excellence. Actively seeking opportunities to grow and contribute in dynamic development environments.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
