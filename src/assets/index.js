@@ -7,7 +7,7 @@ import eduskill from "./company/eduskill.png";
 
 // Import project images
 import facebook from "./projects/Facebook.png";
-import ilm from "./projects/ILM.png";
+import rar from "./projects/rar.png";
 import scanner from "./projects/Scanner.png";
 import lending from "./projects/Lending.png";
 import pos from "./projects/POS.png";
@@ -43,7 +43,7 @@ export {
   threejs,
 
   facebook,
-  ilm,
+  rar,
   scanner,
   lending,
   pos,
