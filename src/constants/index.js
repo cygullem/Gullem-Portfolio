@@ -92,20 +92,6 @@ export const experiences = [
 
 export const projects = [
   {
-    name: "Facebook Clone Project",
-    description:
-      "A fully functional Facebook clone developed as a midterm project. Built using jQuery, Ajax, and PHP for the backend, with MySQL as the database. The platform includes core social networking features such as user authentication, posting, commenting, and real-time interactions.",
-    tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "HTML", color: "green-text-gradient" },
-      { name: "CSS", color: "green-text-gradient" },
-      { name: "PHP", color: "pink-text-gradient" },
-      { name: "Ajax", color: "green-text-gradient" },
-    ],
-    image: facebook,
-    source_code_link: "https://github.com/cygullem/FACEBOOK-Midterm",
-  },
-  {
     name: "rentaride: Vehicle Rental and Tracking Platform",
     description:
       "RentaRide is a full-stack web application designed for efficient vehicle rental management. Built with Next.js for the frontend and PostgreSQL for the database, the platform allows customers to browse, reserve, and manage vehicle rentals with ease. The project emphasizes performance, security, and a seamless user experience.",
@@ -121,14 +107,17 @@ export const projects = [
     source_code_link: "https://rentaridev2.vercel.app",
   },
   {
-    name: "QR Code Scanner",
+    name: "POS System",
     description:
-      "A fully functional QR Code Scanner built entirely with JavaScript. Designed to work seamlessly on both desktop and mobile devices, it scans QR codes, displays the results, and optionally redirects users to the embedded links for quick access.",
+      "A fully functional Point of Sale (POS) system built with ReactJS for the frontend and PHP for the backend, using MySQL as the database. It features API-based data fetching for smooth and dynamic operations, enabling efficient transaction processing, inventory management, and sales tracking.",
     tags: [
-      { name: "shell", color: "blue-text-gradient" },
+      { name: "ReactJS", color: "blue-text-gradient" },
+      { name: "PHP", color: "green-text-gradient" },
+      { name: "MySQL", color: "green-text-gradient" },
+      { name: "API", color: "pink-text-gradient" },
     ],
-    image: scanner,
-    source_code_link: "https://github.com/cygullem/JS_QR_Code",
+    image: pos,
+    source_code_link: "https://github.com/cygullem/POS_System_ReactVite_PHP",
   },
   {
     name: "Lending App",
@@ -145,19 +134,6 @@ export const projects = [
       "https://github.com/cygullem/GullemsUtanganan",
   },
   {
-    name: "POS System",
-    description:
-      "A fully functional Point of Sale (POS) system built with ReactJS for the frontend and PHP for the backend, using MySQL as the database. It features API-based data fetching for smooth and dynamic operations, enabling efficient transaction processing, inventory management, and sales tracking.",
-    tags: [
-      { name: "ReactJS", color: "blue-text-gradient" },
-      { name: "PHP", color: "green-text-gradient" },
-      { name: "MySQL", color: "green-text-gradient" },
-      { name: "API", color: "pink-text-gradient" },
-    ],
-    image: pos,
-    source_code_link: "https://github.com/cygullem/POS_System_ReactVite_PHP",
-  },
-  {
     name: "Portfolio Website",
     description:
       "A fully functional Portfolio Website built with ReactJS, TailwindCSS, and Framer Motion. This responsive single-page application showcases my skills, projects, and experiences, providing visitors with an interactive and engaging platform to explore.",
@@ -170,5 +146,29 @@ export const projects = [
 
     image: portfolio,
     source_code_link: "https://github.com/cygullem/Gullem-Portfolio",
+  },
+  {
+    name: "Facebook Clone Project",
+    description:
+      "A fully functional Facebook clone developed as a midterm project. Built using jQuery, Ajax, and PHP for the backend, with MySQL as the database. The platform includes core social networking features such as user authentication, posting, commenting, and real-time interactions.",
+    tags: [
+      { name: "Javascript", color: "blue-text-gradient" },
+      { name: "HTML", color: "green-text-gradient" },
+      { name: "CSS", color: "green-text-gradient" },
+      { name: "PHP", color: "pink-text-gradient" },
+      { name: "Ajax", color: "green-text-gradient" },
+    ],
+    image: facebook,
+    source_code_link: "https://github.com/cygullem/FACEBOOK-Midterm",
+  },
+  {
+    name: "QR Code Scanner",
+    description:
+      "A fully functional QR Code Scanner built entirely with JavaScript. Designed to work seamlessly on both desktop and mobile devices, it scans QR codes, displays the results, and optionally redirects users to the embedded links for quick access.",
+    tags: [
+      { name: "shell", color: "blue-text-gradient" },
+    ],
+    image: scanner,
+    source_code_link: "https://github.com/cygullem/JS_QR_Code",
   },
 ];
